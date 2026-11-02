@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "id": "slot-sample--2-toi",
+      "profile": "mau-bep-nha-may",
+      "date": "2026-10-15",
+      "slot": "toi",
+      "time": "20:30",
+      "ideaId": "idea-sample-8",
+      "videoId": "vid-sample-8",
+      "platforms": [
+        "facebook",
+        "tiktok",
+        "instagram"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "slot-sample-0-trua",
+      "profile": "mau-bep-nha-may",
+      "date": "2026-10-17",
+      "slot": "trua",
+      "time": "11:30",
+      "ideaId": "idea-sample-3",
+      "platforms": [
+        "facebook",
+        "tiktok",
+        "instagram"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "slot-sample-0-toi",
+      "profile": "mau-bep-nha-may",
+      "date": "2026-10-17",
+      "slot": "toi",
+      "time": "20:30",
+      "ideaId": "idea-sample-4",
+      "platforms": [
+        "facebook",
+        "tiktok",
+        "instagram"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "slot-sample-1-sang",
+      "profile": "mau-bep-nha-may",
+      "date": "2026-10-18",
+      "slot": "sang",
+      "time": "06:30",
+      "ideaId": "idea-sample-2",
+      "platforms": [
+        "facebook",
+        "tiktok",
+        "instagram"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "slot-sample-2-toi",
+      "profile": "mau-bep-nha-may",
+      "date": "2026-10-19",
+      "slot": "toi",
+      "time": "20:30",
+      "ideaId": "idea-sample-5",
+      "platforms": [
+        "facebook",
+        "tiktok",
+        "instagram"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "slot-sample-3-trua",
+      "profile": "mau-bep-nha-may",
+      "date": "2026-10-20",
+      "slot": "trua",
+      "time": "11:30",
+      "ideaId": "idea-sample-1",
+      "videoId": "vid-sample-1",
+      "platforms": [
+        "facebook",
+        "tiktok",
+        "instagram"
+      ],
+      "status": "planned"
+    }
+  ]
+}

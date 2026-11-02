@@ -1,0 +1,11 @@
+# Pronunciation dictionary: word => spoken form (whole token). Lowercase/mixed keys match case-insensitively;
+# ALL-CAPS keys (acronyms: AI, TTS, MP4) match only when written in caps, so the pronoun "ai" stays "ai".
+# Pause in narration: [pause] (0.4 s) or [pause 0.8]
+TTS => tê tê ét
+AI => ây ai
+9:16 => chín trên mười sáu
+16:9 => mười sáu trên chín
+MP4 => em pê bốn
+pip => píp
+ffmpeg => ép ép em pét
+Datxanh => Đất Xanh

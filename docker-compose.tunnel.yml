@@ -1,0 +1,55 @@
+# Public hostname via Cloudflare Tunnel. Credentials stay outside the repo.
+#   TUNNEL_CONFIG_DIR=<SECRETS_DIR>/cloudflared
+#   docker compose -f docker-compose.yml -f docker-compose.tunnel.yml up -d --build
+services:
+  web:
+    image: ${APP_IMAGE:-video-studio:latest}
+    user: "1000:1000"
+    env_file:
+      - ${APP_ENV_FILE:-.env}
+    environment:
+      ENV_FILE: /env/.env
+    volumes:
+      - ${APP_ENV_DIR:?set APP_ENV_DIR}:/env
+    build:
+      context: .
+      args:
+        WITH_VIENEU: ${WITH_VIENEU:-0}
+  publisher:
+    image: ${APP_IMAGE:-video-studio:latest}
+    user: "1000:1000"
+    env_file:
+      - ${APP_ENV_FILE:-.env}
+    environment:
+      ENV_FILE: /env/.env
+    volumes:
+      - ${APP_ENV_DIR:?set APP_ENV_DIR}:/env
+    build:
+      context: .
+      args:
+        WITH_VIENEU: ${WITH_VIENEU:-0}
+  autopublish:
+    environment:
+      ENV_FILE: /env/.env
+    volumes:
+      - ${APP_ENV_DIR:?set APP_ENV_DIR}:/env:ro
+  editorial-production:
+    image: ${APP_IMAGE:-video-studio:latest}
+    environment:
+      ENV_FILE: /env/.env   # đọc khoá provider ảnh vừa lưu trên giao diện (IMAGE_PROVIDER_KEY__*) khi render
+    volumes:
+      - ${APP_ENV_DIR:?set APP_ENV_DIR}:/env:ro
+  editorial-schedule:
+    image: ${APP_IMAGE:-video-studio:latest}
+  cdn-sync:
+    image: ${APP_IMAGE:-video-studio:latest}
+    user: "1000:1000"
+  cloudflared:
+    image: cloudflare/cloudflared:2026.10.0
+    user: "1000:1000"
+    restart: unless-stopped
+    command: ["tunnel", "--no-autoupdate", "--config", "/etc/cloudflared/config.yml", "run"]
+    volumes:
+      - ${TUNNEL_CONFIG_DIR:?set TUNNEL_CONFIG_DIR}:/etc/cloudflared:ro
+    depends_on:
+      - web

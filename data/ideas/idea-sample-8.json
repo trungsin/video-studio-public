@@ -1,0 +1,81 @@
+{
+  "id": "idea-sample-8",
+  "profile": "mau-bep-nha-may",
+  "title": "Mì xào bò trong 12 phút",
+  "hook": "Đói bụng mà lười? Thử món này.",
+  "pillar": "Món 15 phút",
+  "angle": "",
+  "sample": true,
+  "characterId": "char-may",
+  "settingId": "set-bep-may",
+  "status": "published",
+  "script": {
+    "scenes": [
+      {
+        "title": "12 phút mì xào",
+        "narration": "Đói bụng mà lười? Mì xào bò mười hai phút là xong.",
+        "visual": "Đĩa mì xào"
+      }
+    ],
+    "caption": "Mì xào bò 12 phút",
+    "hashtags": [
+      "#bepnhamay",
+      "#monngon15phut",
+      "#comnha"
+    ],
+    "cta": "Lưu lại và theo dõi kênh"
+  },
+  "history": [
+    {
+      "at": "2026-10-05T04:37:43.719Z",
+      "from": null,
+      "to": "idea",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-05T16:37:43.719Z",
+      "from": "idea",
+      "to": "script",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-06T04:37:43.719Z",
+      "from": "script",
+      "to": "mow",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-06T16:37:43.719Z",
+      "from": "mow",
+      "to": "legal",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-07T04:37:43.719Z",
+      "from": "legal",
+      "to": "production",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-07T16:37:43.719Z",
+      "from": "production",
+      "to": "ready",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-08T04:37:43.719Z",
+      "from": "ready",
+      "to": "scheduled",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-08T16:37:43.719Z",
+      "from": "scheduled",
+      "to": "published",
+      "note": "dữ liệu mẫu"
+    }
+  ],
+  "createdAt": "2026-10-05T04:37:43.719Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z",
+  "videoId": "vid-sample-8"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "idea-sample-4",
+  "profile": "mau-bep-nha-may",
+  "title": "Ba cách bảo quản rau tươi lâu",
+  "hook": "Rau mua về hai hôm đã héo?",
+  "pillar": "Mẹo bếp",
+  "angle": "",
+  "sample": true,
+  "characterId": "char-may",
+  "settingId": "set-bep-may",
+  "status": "mow",
+  "script": {
+    "scenes": [
+      {
+        "title": "Rau héo nhanh?",
+        "narration": "Rau mua về hai hôm đã héo? Ba cách này giúp rau tươi lâu hơn.",
+        "visual": "Rau xanh trong rổ"
+      },
+      {
+        "title": "Cách một",
+        "narration": "Lau khô rồi bọc giấy, cho vào hộp kín.",
+        "visual": "Rau bọc giấy ăn"
+      },
+      {
+        "title": "Lưu lại",
+        "narration": "Lưu lại để dùng dần nha cả nhà.",
+        "visual": "Hộp rau trong tủ lạnh"
+      }
+    ],
+    "caption": "3 cách giữ rau tươi lâu",
+    "hashtags": [
+      "#bepnhamay",
+      "#monngon15phut",
+      "#comnha"
+    ],
+    "cta": "Lưu lại và theo dõi kênh"
+  },
+  "history": [
+    {
+      "at": "2026-10-13T04:37:43.719Z",
+      "from": null,
+      "to": "idea",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-13T16:37:43.719Z",
+      "from": "idea",
+      "to": "script",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-14T04:37:43.719Z",
+      "from": "script",
+      "to": "mow",
+      "note": "dữ liệu mẫu"
+    }
+  ],
+  "createdAt": "2026-10-13T04:37:43.719Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "vid-sample-1",
+  "ideaId": "idea-sample-1",
+  "profile": "mau-bep-nha-may",
+  "title": "Trứng chiên lá lốt 10 phút",
+  "status": "todo",
+  "sample": true,
+  "scenes": [
+    {
+      "title": "Mười phút, một món",
+      "narration": "Mười phút có kịp nấu một món đưa cơm không? Thử cùng mình nhé.",
+      "visual": "Chảo nóng, trứng và lá lốt trên thớt"
+    },
+    {
+      "title": "Chuẩn bị",
+      "narration": "Ba quả trứng, một nắm lá lốt thái nhỏ, chút hành tím và nước mắm.",
+      "visual": "Nguyên liệu bày trên mặt bếp gỗ"
+    },
+    {
+      "title": "Đánh trứng",
+      "narration": "Đánh tan trứng với lá lốt, nêm nhẹ, đừng đánh quá lâu để trứng còn xốp.",
+      "visual": "Cận tay đánh trứng trong bát"
+    },
+    {
+      "title": "Chiên lửa vừa",
+      "narration": "Chiên lửa vừa, lật một lần là đủ, mép vàng giòn là được.",
+      "visual": "Trứng vàng trong chảo"
+    },
+    {
+      "title": "Mẹo nhỏ",
+      "narration": "Mẹo nhỏ: thêm một thìa nước lọc vào trứng, món sẽ mềm hơn. Lưu lại để tối nay làm nha!",
+      "visual": "Đĩa trứng chiên cạnh bát cơm"
+    }
+  ],
+  "caption": "Trứng chiên lá lốt 10 phút, thơm nức cả nhà 🍳",
+  "hashtags": [
+    "#bepnhamay",
+    "#monngon15phut",
+    "#comnha"
+  ],
+  "tts": {
+    "engine": "vieneu",
+    "voice": "Ngọc Huyền",
+    "rate": "+0%"
+  },
+  "music": "synth",
+  "render": {
+    "state": "idle"
+  },
+  "createdAt": "2026-10-08T04:37:43.719Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z"
+}

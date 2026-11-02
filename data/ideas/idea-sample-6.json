@@ -1,0 +1,22 @@
+{
+  "id": "idea-sample-6",
+  "profile": "mau-bep-nha-may",
+  "title": "Cơm chiên thập cẩm từ cơm nguội",
+  "hook": "Cơm nguội đừng bỏ!",
+  "pillar": "Món 15 phút",
+  "angle": "",
+  "sample": true,
+  "characterId": "char-may",
+  "settingId": "set-bep-may",
+  "status": "idea",
+  "history": [
+    {
+      "at": "2026-10-15T04:37:43.719Z",
+      "from": null,
+      "to": "idea",
+      "note": "dữ liệu mẫu"
+    }
+  ],
+  "createdAt": "2026-10-15T04:37:43.719Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z"
+}

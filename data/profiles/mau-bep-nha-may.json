@@ -1,0 +1,210 @@
+{
+  "slug": "mau-bep-nha-may",
+  "name": "Bếp Nhà Mây (mẫu)",
+  "initials": "BM",
+  "sample": true,
+  "tagline": "Profile MẪU minh hoạ — không phải người thật",
+  "updatedAt": "2026-10-25T06:56:58.479Z",
+  "channels": [
+    {
+      "platform": "facebook",
+      "handle": "@bepnhamay.sample",
+      "name": "Bếp Nhà Mây (mẫu)",
+      "connected": true,
+      "via": "zernio"
+    },
+    {
+      "platform": "instagram",
+      "handle": "@bepnhamay.sample",
+      "name": "Bếp Nhà Mây",
+      "connected": true,
+      "via": "zernio"
+    },
+    {
+      "platform": "tiktok",
+      "handle": "@bepnhamay.sample",
+      "name": "Bếp Nhà Mây",
+      "connected": true,
+      "via": "zernio"
+    },
+    {
+      "platform": "youtube",
+      "handle": "@bepnhamay.sample",
+      "name": "Bếp Nhà Mây",
+      "connected": false,
+      "via": "direct"
+    },
+    {
+      "platform": "threads",
+      "handle": "@bepnhamay.sample",
+      "name": "Bếp Nhà Mây",
+      "connected": false,
+      "via": "zernio"
+    },
+    {
+      "platform": "telegram",
+      "handle": "@bepnhamay_sample",
+      "name": "Bếp Nhà Mây",
+      "connected": false,
+      "via": "zernio"
+    }
+  ],
+  "tts": {
+    "engine": "vieneu",
+    "voice": "Ngọc Huyền",
+    "rate": "+0%"
+  },
+  "slotTimes": {
+    "sang": "06:30",
+    "trua": "11:30",
+    "chieu": "17:30",
+    "toi": "20:30"
+  },
+  "cast": {
+    "characters": [
+      {
+        "id": "char-may",
+        "name": "Mây (nhân vật hư cấu)",
+        "description": "a fictional Vietnamese woman about 30 years old, warm friendly smile, shoulder-length straight black hair with soft side-swept bangs, oval face, light natural makeup, small gold stud earrings, cream-white short-sleeve blouse under a mustard-yellow cotton apron",
+        "refs": [
+          "assets/mau-bep-nha-may/char-may-portrait.jpg",
+          "assets/mau-bep-nha-may/char-may-kitchen.jpg"
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "id": "set-bep-may",
+        "name": "Bếp nhà Mây (Sài Gòn)",
+        "description": "a cozy small Saigon apartment kitchen: light wooden countertop, white square tiled backsplash, open light-wood shelves with white ceramic bowls, potted green herbs, a sage-green louvered wooden shutter on a cream wall, warm soft daylight",
+        "refs": [
+          "assets/mau-bep-nha-may/set-bep-may.jpg"
+        ]
+      }
+    ]
+  },
+  "sections": {
+    "info": [
+      {
+        "id": "s1",
+        "label": "Tổng quan",
+        "value": "Kênh nấu ăn gia đình giả định: món nhanh dưới 20 phút cho người bận rộn, giọng kể ấm áp, thực tế.",
+        "ref": "voice/mau-bep-nha-may.md:8"
+      },
+      {
+        "id": "s2",
+        "label": "Vai trò",
+        "value": "Người nấu chính trong nhà, chia sẻ mẹo bếp và thực đơn tuần (nhân vật minh hoạ).",
+        "ref": "voice/mau-bep-nha-may.md:9"
+      },
+      {
+        "id": "s3",
+        "label": "Khán giả",
+        "value": "Người đi làm 25-40 tuổi, ở thành phố, muốn ăn nhà nhưng ít thời gian.",
+        "ref": "voice/mau-bep-nha-may.md:10"
+      },
+      {
+        "id": "s4",
+        "label": "Trụ nội dung",
+        "value": "Món 15 phút · Đi chợ thông minh · Mẹo bếp · Thực đơn tuần",
+        "ref": "voice/mau-bep-nha-may.md:11"
+      },
+      {
+        "id": "s5",
+        "label": "Không làm",
+        "value": "Không bịa số liệu dinh dưỡng, không hứa công dụng chữa bệnh, không chê thương hiệu khác.",
+        "ref": "voice/mau-bep-nha-may.md:12"
+      }
+    ],
+    "voice": [
+      {
+        "id": "s6",
+        "label": "Tính cách",
+        "value": "Gần gũi, vui vẻ, nói như kể chuyện với bạn thân. VD: \"Tối nay nhà mình ăn gì đây ta?\"",
+        "ref": "voice/mau-bep-nha-may.md:16"
+      },
+      {
+        "id": "s7",
+        "label": "Xưng hô",
+        "value": "Xưng \"mình\", gọi người xem là \"cả nhà\" hoặc \"bạn\".",
+        "ref": "voice/mau-bep-nha-may.md:17"
+      },
+      {
+        "id": "s8",
+        "label": "Hook",
+        "value": "Mở bằng câu hỏi hoặc tình huống quen: \"Mười lăm phút có kịp nấu bữa tối không?\"",
+        "ref": "voice/mau-bep-nha-may.md:18"
+      },
+      {
+        "id": "s9",
+        "label": "Độ dài câu",
+        "value": "Câu ngắn 5-15 từ, nhịp nhanh, mỗi cảnh một ý.",
+        "ref": "voice/mau-bep-nha-may.md:19"
+      },
+      {
+        "id": "s10",
+        "label": "Kết",
+        "value": "Chốt bằng mẹo nhỏ + lời mời lưu video / theo dõi kênh.",
+        "ref": "voice/mau-bep-nha-may.md:20"
+      },
+      {
+        "id": "voice-mvnh60dr212c",
+        "label": "Câu kết",
+        "value": "Bữa nhà gọn hơn cùng Mây. Theo dõi Bếp Nhà Mây để xem món tiếp theo nhé.",
+        "ref": "voice/mau-bep-nha-may.md:21"
+      }
+    ],
+    "ttsNotes": [
+      {
+        "id": "s11",
+        "label": "Giọng",
+        "value": "Ngọc Huyền (VieNeu-TTS local, dự phòng edge-tts Hoài My).",
+        "ref": "voice/mau-bep-nha-may.md:25"
+      },
+      {
+        "id": "s12",
+        "label": "Nhạc",
+        "value": "Nhạc nền nhẹ tự tổng hợp, giảm âm khi có lời đọc.",
+        "ref": "voice/mau-bep-nha-may.md:26"
+      }
+    ],
+    "colors": [
+      {
+        "id": "c1",
+        "label": "Cam đất",
+        "value": "màu chính, nền tiêu đề",
+        "hex": "#C2410C",
+        "ref": "voice/mau-bep-nha-may.md:30"
+      },
+      {
+        "id": "c2",
+        "label": "Kem",
+        "value": "nền sáng",
+        "hex": "#FFF4E0",
+        "ref": "voice/mau-bep-nha-may.md:31"
+      },
+      {
+        "id": "c3",
+        "label": "Vàng nghệ",
+        "value": "màu nhấn chữ đang đọc",
+        "hex": "#FACC15",
+        "ref": "voice/mau-bep-nha-may.md:32"
+      },
+      {
+        "id": "c4",
+        "label": "Xanh lá",
+        "value": "rau, sự tươi",
+        "hex": "#15803D",
+        "ref": "voice/mau-bep-nha-may.md:33"
+      }
+    ],
+    "hashtags": [
+      "#bepnhamay",
+      "#monngon15phut",
+      "#nauannhanh",
+      "#comnha",
+      "#meobep"
+    ]
+  },
+  "brand": "Bếp Nhà Mây"
+}

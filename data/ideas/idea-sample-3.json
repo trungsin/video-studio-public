@@ -1,0 +1,60 @@
+{
+  "id": "idea-sample-3",
+  "profile": "mau-bep-nha-may",
+  "title": "Đi chợ 200 nghìn cho cả tuần",
+  "hook": "Hai trăm nghìn đi chợ được những gì?",
+  "pillar": "Đi chợ thông minh",
+  "angle": "",
+  "sample": true,
+  "characterId": "char-may",
+  "settingId": "set-bep-may",
+  "status": "mow",
+  "script": {
+    "scenes": [
+      {
+        "title": "200 nghìn đi chợ",
+        "narration": "Hai trăm nghìn đi chợ được những gì cho cả tuần? Mình liệt kê nhé.",
+        "visual": "Giỏ đi chợ đầy rau"
+      },
+      {
+        "title": "Danh sách",
+        "narration": "Trứng, đậu, rau theo mùa, một ít thịt. Mua theo thực đơn, không mua theo hứng.",
+        "visual": "Danh sách viết tay"
+      },
+      {
+        "title": "Kết",
+        "narration": "Bạn thử chưa? Bình luận số tiền đi chợ của nhà bạn nhé.",
+        "visual": "Tủ lạnh gọn gàng"
+      }
+    ],
+    "caption": "Đi chợ thông minh: 200k cho cả tuần",
+    "hashtags": [
+      "#bepnhamay",
+      "#monngon15phut",
+      "#comnha"
+    ],
+    "cta": "Lưu lại và theo dõi kênh"
+  },
+  "history": [
+    {
+      "at": "2026-10-12T04:37:43.719Z",
+      "from": null,
+      "to": "idea",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-12T16:37:43.719Z",
+      "from": "idea",
+      "to": "script",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-13T04:37:43.719Z",
+      "from": "script",
+      "to": "mow",
+      "note": "dữ liệu mẫu"
+    }
+  ],
+  "createdAt": "2026-10-12T04:37:43.719Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z"
+}

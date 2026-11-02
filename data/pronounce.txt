@@ -1,0 +1,8 @@
+# Từ điển phát âm của kênh (ưu tiên hơn worker/mvlib/pronounce.txt). Dạng: từ => cách đọc. Phụ đề vẫn giữ chữ gốc.
+# su-15: VieNeu đọc "Tonkin" như "thông kinh" -> Việt hoá theo cách đọc quen của người Việt.
+Tonkin => Tông-kin
+Tunquin => Tung-kin
+Rhodes => Rốt
+# su-15: tên giáo sĩ Alexandre de Rhodes đọc theo lối quen dùng "A-lếch-xăng đơ Rốt" ("de" không phải từ tiếng Việt).
+Alexandre => A-lếch-xăng
+de => đơ

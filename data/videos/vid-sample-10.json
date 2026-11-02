@@ -1,0 +1,59 @@
+{
+  "id": "vid-sample-10",
+  "ideaId": "idea-sample-10",
+  "profile": "mau-bep-nha-may",
+  "title": "Trứng chiên 1 phút cùng Mây",
+  "status": "todo",
+  "sample": true,
+  "scenes": [
+    {
+      "title": "Trứng chiên 1 phút",
+      "narration": "Chào cả nhà, Mây đây! Hôm nay mình làm trứng chiên một phút nha.",
+      "visual": "She waves holding a frying pan",
+      "clip": "assets/mau-bep-nha-may/clips/may-01-chao.mp4"
+    },
+    {
+      "title": "",
+      "narration": "Đập hai quả trứng, thêm chút nước mắm, đánh thật đều tay cho trứng bông.",
+      "visual": "She cracks an egg and whisks in a white bowl",
+      "clip": "assets/mau-bep-nha-may/clips/may-03-danh-trung.mp4"
+    },
+    {
+      "title": "",
+      "narration": "Chiên lửa vừa, mép vàng là trượt ra đĩa. Thơm phức luôn!",
+      "visual": "She slides the omelette onto a plate and shows it",
+      "clip": "assets/mau-bep-nha-may/clips/may-05-trung-chien-v2.mp4"
+    },
+    {
+      "title": "",
+      "narration": "Lưu lại để tối nay làm thử, và theo dõi Bếp Nhà Mây nha!",
+      "visual": "Medium close-up, friendly smile to camera",
+      "image": "assets/mau-bep-nha-may/scenes/06-cta.jpg",
+      "motion": "kenburns"
+    }
+  ],
+  "caption": "Trứng chiên 1 phút 🍳 nhanh gọn cho bữa tối (kênh mẫu)",
+  "hashtags": [
+    "#bepnhamay",
+    "#monngon15phut",
+    "#comnha"
+  ],
+  "tts": {
+    "engine": "vieneu",
+    "voice": "Ngọc Huyền",
+    "rate": "+0%"
+  },
+  "music": "synth",
+  "render": {
+    "state": "idle"
+  },
+  "createdAt": "2026-10-16T16:37:43.720Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z",
+  "characterId": "char-may",
+  "settingId": "set-bep-may",
+  "musicVol": 0.14,
+  "crossfade": 0.4,
+  "captionY": 0.62,
+  "titleY": 200,
+  "maxSlow": 1.35
+}

@@ -1,0 +1,88 @@
+{
+  "id": "idea-sample-9",
+  "profile": "mau-bep-nha-may",
+  "title": "Chào cả nhà, mình là Mây",
+  "hook": "Giới thiệu kênh",
+  "pillar": "Giới thiệu",
+  "angle": "",
+  "sample": true,
+  "characterId": "char-may",
+  "settingId": "set-bep-may",
+  "status": "production",
+  "script": {
+    "scenes": [
+      {
+        "title": "Chào cả nhà!",
+        "narration": "Chào cả nhà, mình là Mây, chủ căn bếp nhỏ ở Sài Gòn này.",
+        "visual": "She waves cheerfully holding a black frying pan"
+      },
+      {
+        "title": "Căn bếp của Mây",
+        "narration": "Đây là góc bếp nhà mình, nhỏ thôi nhưng sáng nào cũng ngập nắng.",
+        "visual": "The empty kitchen, no people"
+      },
+      {
+        "title": "Món nhanh 15 phút",
+        "narration": "Mỗi ngày mình chia sẻ một món nhanh dưới mười lăm phút cho người bận rộn.",
+        "visual": "She stands behind the wooden counter smiling"
+      },
+      {
+        "title": "Nấu thật, ăn thật",
+        "narration": "Toàn món nhà nấu, nguyên liệu dễ mua ở chợ gần nhà.",
+        "visual": "Close-up portrait, warm smile"
+      },
+      {
+        "title": "Tối nay ăn gì?",
+        "narration": "Bí món thì cứ hỏi Mây nhé, mình gợi ý liền!",
+        "visual": "Close-up of her laughing face"
+      },
+      {
+        "title": "Theo dõi Bếp Nhà Mây",
+        "narration": "Theo dõi kênh để không bỏ lỡ món mới mỗi ngày nha!",
+        "visual": "Medium close-up, friendly smile to camera"
+      }
+    ],
+    "caption": "Chào cả nhà, mình là Mây 👋 Món nhanh 15 phút mỗi ngày tại Bếp Nhà Mây (kênh mẫu)",
+    "hashtags": [
+      "#bepnhamay",
+      "#monngon15phut",
+      "#comnha"
+    ],
+    "cta": "Lưu lại và theo dõi kênh"
+  },
+  "history": [
+    {
+      "at": "2026-10-16T04:37:43.720Z",
+      "from": null,
+      "to": "idea",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-16T16:37:43.720Z",
+      "from": "idea",
+      "to": "script",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-17T04:37:43.720Z",
+      "from": "script",
+      "to": "mow",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-17T16:37:43.720Z",
+      "from": "mow",
+      "to": "legal",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-18T04:37:43.720Z",
+      "from": "legal",
+      "to": "production",
+      "note": "dữ liệu mẫu"
+    }
+  ],
+  "createdAt": "2026-10-16T04:37:43.720Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z",
+  "videoId": "vid-sample-9"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "idea-sample-5",
+  "profile": "mau-bep-nha-may",
+  "title": "Thực đơn tuần cho nhà ba người",
+  "hook": "Tuần này ăn gì? Mình lên sẵn rồi.",
+  "pillar": "Thực đơn tuần",
+  "angle": "",
+  "sample": true,
+  "characterId": "char-may",
+  "settingId": "set-bep-may",
+  "status": "script",
+  "script": {
+    "scenes": [
+      {
+        "title": "Tuần này ăn gì?",
+        "narration": "Tuần này ăn gì? Mình lên sẵn thực đơn bảy ngày cho nhà ba người.",
+        "visual": "Lịch tuần dán trên tủ lạnh"
+      },
+      {
+        "title": "Theo dõi",
+        "narration": "Theo dõi để nhận thực đơn mỗi chủ nhật.",
+        "visual": "Mâm cơm"
+      }
+    ],
+    "caption": "Thực đơn tuần cho nhà 3 người",
+    "hashtags": [
+      "#bepnhamay",
+      "#monngon15phut",
+      "#comnha"
+    ],
+    "cta": "Lưu lại và theo dõi kênh"
+  },
+  "history": [
+    {
+      "at": "2026-10-14T04:37:43.719Z",
+      "from": null,
+      "to": "idea",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-14T16:37:43.719Z",
+      "from": "idea",
+      "to": "script",
+      "note": "dữ liệu mẫu"
+    }
+  ],
+  "createdAt": "2026-10-14T04:37:43.719Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z"
+}

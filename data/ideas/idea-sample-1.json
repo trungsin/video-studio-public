@@ -1,0 +1,95 @@
+{
+  "id": "idea-sample-1",
+  "profile": "mau-bep-nha-may",
+  "title": "Trứng chiên lá lốt 10 phút",
+  "hook": "Mười phút có kịp một món đưa cơm không?",
+  "pillar": "Món 15 phút",
+  "angle": "",
+  "sample": true,
+  "characterId": "char-may",
+  "settingId": "set-bep-may",
+  "status": "scheduled",
+  "script": {
+    "scenes": [
+      {
+        "title": "Mười phút, một món",
+        "narration": "Mười phút có kịp nấu một món đưa cơm không? Thử cùng mình nhé.",
+        "visual": "Chảo nóng, trứng và lá lốt trên thớt"
+      },
+      {
+        "title": "Chuẩn bị",
+        "narration": "Ba quả trứng, một nắm lá lốt thái nhỏ, chút hành tím và nước mắm.",
+        "visual": "Nguyên liệu bày trên mặt bếp gỗ"
+      },
+      {
+        "title": "Đánh trứng",
+        "narration": "Đánh tan trứng với lá lốt, nêm nhẹ, đừng đánh quá lâu để trứng còn xốp.",
+        "visual": "Cận tay đánh trứng trong bát"
+      },
+      {
+        "title": "Chiên lửa vừa",
+        "narration": "Chiên lửa vừa, lật một lần là đủ, mép vàng giòn là được.",
+        "visual": "Trứng vàng trong chảo"
+      },
+      {
+        "title": "Mẹo nhỏ",
+        "narration": "Mẹo nhỏ: thêm một thìa nước lọc vào trứng, món sẽ mềm hơn. Lưu lại để tối nay làm nha!",
+        "visual": "Đĩa trứng chiên cạnh bát cơm"
+      }
+    ],
+    "caption": "Trứng chiên lá lốt 10 phút, thơm nức cả nhà 🍳",
+    "hashtags": [
+      "#bepnhamay",
+      "#monngon15phut",
+      "#comnha"
+    ],
+    "cta": "Lưu lại và theo dõi kênh"
+  },
+  "history": [
+    {
+      "at": "2026-10-08T04:37:43.719Z",
+      "from": null,
+      "to": "idea",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-08T16:37:43.719Z",
+      "from": "idea",
+      "to": "script",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-09T04:37:43.719Z",
+      "from": "script",
+      "to": "mow",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-09T16:37:43.719Z",
+      "from": "mow",
+      "to": "legal",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-10T04:37:43.719Z",
+      "from": "legal",
+      "to": "production",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-10T16:37:43.719Z",
+      "from": "production",
+      "to": "ready",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-11T04:37:43.719Z",
+      "from": "ready",
+      "to": "scheduled",
+      "note": "dữ liệu mẫu"
+    }
+  ],
+  "createdAt": "2026-10-08T04:37:43.719Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z",
+  "videoId": "vid-sample-1"
+}

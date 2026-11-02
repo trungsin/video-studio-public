@@ -1,0 +1,9 @@
+# worker (python) dependencies. Core:
+edge-tts
+numpy
+pillow
+gradio_client
+# v3 render upgrades (optional; each falls back gracefully if missing):
+opencv-python-headless   # face-aware captions + character drift check
+vieneu                   # local VieNeu-TTS v3 Turbo (CPU, ONNX)
+faster-whisper           # word alignment for VieNeu / Gradio voices

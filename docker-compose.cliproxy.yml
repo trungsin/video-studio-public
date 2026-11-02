@@ -1,0 +1,16 @@
+# CLIProxyAPI (https://github.com/router-for-me/CLIProxyAPI) chạy cạnh app làm provider ảnh OpenAI-compatible.
+# Cấu hình + token OAuth nằm ngoài repo (thư mục bí mật, quyền 0700):
+#   export CLIPROXY_DIR=<SECRETS_DIR>/cliproxyapi
+#   docker compose -f docker-compose.yml -f docker-compose.tunnel.yml -f docker-compose.autopublish.yml -f docker-compose.cliproxy.yml up -d cliproxyapi
+# Cùng project Compose nên web/editorial-production gọi được http://cliproxyapi:8317/v1 (thêm ở trang "Provider AI").
+services:
+  cliproxyapi:
+    image: ${CLI_PROXY_IMAGE:-eceasy/cli-proxy-api:latest}   # cần >= v7.2.17 cho gpt-image-2 qua /v1/images/*
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8317:8317"   # chỉ localhost; app gọi qua mạng Docker, không mở ra Internet
+      - "127.0.0.1:1455:1455"   # callback OAuth Codex khi đăng nhập (SSH tunnel -L 1455:127.0.0.1:1455)
+    volumes:
+      - ${CLIPROXY_DIR:?set CLIPROXY_DIR}/config.yaml:/CLIProxyAPI/config.yaml
+      - ${CLIPROXY_DIR:?set CLIPROXY_DIR}/auths:/root/.cli-proxy-api
+      - ${CLIPROXY_DIR:?set CLIPROXY_DIR}/logs:/CLIProxyAPI/logs

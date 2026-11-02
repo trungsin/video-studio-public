@@ -1,0 +1,78 @@
+{
+  "id": "idea-sample-10",
+  "profile": "mau-bep-nha-may",
+  "title": "Trứng chiên 1 phút cùng Mây",
+  "hook": "Một phút có món đưa cơm",
+  "pillar": "Món 15 phút",
+  "angle": "",
+  "sample": true,
+  "characterId": "char-may",
+  "settingId": "set-bep-may",
+  "status": "production",
+  "script": {
+    "scenes": [
+      {
+        "title": "Trứng chiên 1 phút",
+        "narration": "Chào cả nhà, Mây đây! Hôm nay mình làm trứng chiên một phút nha.",
+        "visual": "She waves holding a frying pan"
+      },
+      {
+        "title": "",
+        "narration": "Đập hai quả trứng, thêm chút nước mắm, đánh thật đều tay cho trứng bông.",
+        "visual": "She cracks an egg and whisks in a white bowl"
+      },
+      {
+        "title": "",
+        "narration": "Chiên lửa vừa, mép vàng là trượt ra đĩa. Thơm phức luôn!",
+        "visual": "She slides the omelette onto a plate and shows it"
+      },
+      {
+        "title": "",
+        "narration": "Lưu lại để tối nay làm thử, và theo dõi Bếp Nhà Mây nha!",
+        "visual": "Medium close-up, friendly smile to camera"
+      }
+    ],
+    "caption": "Trứng chiên 1 phút 🍳 nhanh gọn cho bữa tối (kênh mẫu)",
+    "hashtags": [
+      "#bepnhamay",
+      "#monngon15phut",
+      "#comnha"
+    ],
+    "cta": "Lưu lại và theo dõi kênh"
+  },
+  "history": [
+    {
+      "at": "2026-10-16T16:37:43.720Z",
+      "from": null,
+      "to": "idea",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-17T04:37:43.720Z",
+      "from": "idea",
+      "to": "script",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-17T16:37:43.720Z",
+      "from": "script",
+      "to": "mow",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-18T04:37:43.720Z",
+      "from": "mow",
+      "to": "legal",
+      "note": "dữ liệu mẫu"
+    },
+    {
+      "at": "2026-10-18T16:37:43.720Z",
+      "from": "legal",
+      "to": "production",
+      "note": "dữ liệu mẫu"
+    }
+  ],
+  "createdAt": "2026-10-16T16:37:43.720Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z",
+  "videoId": "vid-sample-10"
+}

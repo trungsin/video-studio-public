@@ -1,0 +1,32 @@
+{
+  "id": "vid-sample-8",
+  "ideaId": "idea-sample-8",
+  "profile": "mau-bep-nha-may",
+  "title": "Mì xào bò trong 12 phút",
+  "status": "published",
+  "sample": true,
+  "scenes": [
+    {
+      "title": "12 phút mì xào",
+      "narration": "Đói bụng mà lười? Mì xào bò mười hai phút là xong.",
+      "visual": "Đĩa mì xào"
+    }
+  ],
+  "caption": "Mì xào bò 12 phút",
+  "hashtags": [
+    "#bepnhamay",
+    "#monngon15phut",
+    "#comnha"
+  ],
+  "tts": {
+    "engine": "vieneu",
+    "voice": "Ngọc Huyền",
+    "rate": "+0%"
+  },
+  "music": "synth",
+  "render": {
+    "state": "idle"
+  },
+  "createdAt": "2026-10-05T04:37:43.719Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z"
+}

@@ -1,0 +1,22 @@
+node_modules/
+.next/
+out/
+/media/
+.env
+.env.*
+!.env.example
+*.log
+.tts_cache/
+__pycache__/
+next-env.d.ts
+tsconfig.tsbuildinfo
+.venv/
+audit/*.mp4
+data/autopublish-state.json
+
+# Thông tin kênh thật + máy chủ (nội bộ, chỉ trên máy vận hành)
+docs/kenh-dang-van-hanh.md
+
+# Ghi chép vận hành riêng của từng bản triển khai
+docs/deployment.md
+docs/kenh-dang-van-hanh.md

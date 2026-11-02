@@ -1,0 +1,12 @@
+services:
+  autopublish:
+    image: ${APP_IMAGE:-video-studio:latest}
+    env_file:
+      - .env
+    environment:
+      AUTOPUBLISH_LIVE_PROFILES: ${AUTOPUBLISH_LIVE_PROFILES:-}   # slug profile được đăng thật (phân tách dấu phẩy), đặt trong file env
+    command: ["node_modules/.bin/tsx", "worker/autopublish.ts", "--watch"]
+    volumes:
+      - ./data:/app/data
+      - ./media:/app/media
+    restart: unless-stopped

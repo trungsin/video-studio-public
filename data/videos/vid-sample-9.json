@@ -1,0 +1,71 @@
+{
+  "id": "vid-sample-9",
+  "ideaId": "idea-sample-9",
+  "profile": "mau-bep-nha-may",
+  "title": "Chào cả nhà, mình là Mây",
+  "status": "todo",
+  "sample": true,
+  "scenes": [
+    {
+      "title": "Chào cả nhà!",
+      "narration": "Chào cả nhà, mình là Mây, chủ căn bếp nhỏ ở Sài Gòn này.",
+      "visual": "She waves cheerfully holding a black frying pan",
+      "image": "assets/mau-bep-nha-may/scenes/01-chao.jpg",
+      "motion": "kenburns"
+    },
+    {
+      "title": "Căn bếp của Mây",
+      "narration": "Đây là góc bếp nhà mình, nhỏ thôi nhưng sáng nào cũng ngập nắng.",
+      "visual": "The empty kitchen, no people",
+      "image": "assets/mau-bep-nha-may/scenes/02-goc-bep.jpg",
+      "motion": "kenburns"
+    },
+    {
+      "title": "Món nhanh 15 phút",
+      "narration": "Mỗi ngày mình chia sẻ một món nhanh dưới mười lăm phút cho người bận rộn.",
+      "visual": "She stands behind the wooden counter smiling",
+      "image": "assets/mau-bep-nha-may/scenes/03-ben-quay.jpg",
+      "motion": "kenburns"
+    },
+    {
+      "title": "Nấu thật, ăn thật",
+      "narration": "Toàn món nhà nấu, nguyên liệu dễ mua ở chợ gần nhà.",
+      "visual": "Close-up portrait, warm smile",
+      "image": "assets/mau-bep-nha-may/scenes/04-chan-dung.jpg",
+      "motion": "kenburns"
+    },
+    {
+      "title": "Tối nay ăn gì?",
+      "narration": "Bí món thì cứ hỏi Mây nhé, mình gợi ý liền!",
+      "visual": "Close-up of her laughing face",
+      "image": "assets/mau-bep-nha-may/scenes/05-can-mat.jpg",
+      "motion": "kenburns"
+    },
+    {
+      "title": "Theo dõi Bếp Nhà Mây",
+      "narration": "Theo dõi kênh để không bỏ lỡ món mới mỗi ngày nha!",
+      "visual": "Medium close-up, friendly smile to camera",
+      "image": "assets/mau-bep-nha-may/scenes/06-cta.jpg",
+      "motion": "kenburns"
+    }
+  ],
+  "caption": "Chào cả nhà, mình là Mây 👋 Món nhanh 15 phút mỗi ngày tại Bếp Nhà Mây (kênh mẫu)",
+  "hashtags": [
+    "#bepnhamay",
+    "#monngon15phut",
+    "#comnha"
+  ],
+  "tts": {
+    "engine": "vieneu",
+    "voice": "Ngọc Huyền",
+    "rate": "+0%"
+  },
+  "music": "synth",
+  "render": {
+    "state": "idle"
+  },
+  "createdAt": "2026-10-16T04:37:43.720Z",
+  "updatedAt": "2026-10-17T04:37:43.720Z",
+  "characterId": "char-may",
+  "settingId": "set-bep-may"
+}

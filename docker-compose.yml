@@ -1,0 +1,56 @@
+services:
+  web:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:3110:3100"   # đổi 3100->3110 do sso_app chiếm port 3100 trên VPS mới; ra ngoài qua Cloudflare Tunnel
+    volumes:
+      - ./data:/app/data         # repo data (git) — AI assistant đọc/ghi ở đây
+      - ./media:/app/media       # upload + video render (không commit)
+    restart: unless-stopped
+
+  publisher:
+    build: .
+    env_file:
+      - .env
+    command: ["node_modules/.bin/tsx", "worker/publish.ts", "--watch"]
+    volumes:
+      - ./data:/app/data
+      - ./media:/app/media
+    restart: unless-stopped
+
+  editorial-production:
+    build: .
+    env_file:
+      - .env
+    command: ["node_modules/.bin/tsx", "worker/editorial-production.ts", "--watch"]
+    environment:
+      EDITORIAL_PRODUCTION_ENABLED: ${EDITORIAL_PRODUCTION_ENABLED:-1}
+    volumes:
+      - ./data:/app/data
+      - ./media:/app/media
+    restart: unless-stopped
+
+  editorial-schedule:
+    build: .
+    env_file:
+      - .env
+    command: ["node_modules/.bin/tsx", "worker/editorial-schedule.ts", "--watch"]
+    environment:
+      EDITORIAL_SCHEDULE_ENABLED: ${EDITORIAL_SCHEDULE_ENABLED:-1}
+    volumes:
+      - ./data:/app/data
+      - ./media:/app/media
+    restart: unless-stopped
+
+  cdn-sync:
+    build: .
+    env_file:
+      - .env
+    command: ["node_modules/.bin/tsx", "worker/cdn-sync.ts", "--watch"]   # ảnh/video profile có MYCDN_API_KEY__<SLUG> -> MYCDN_URL
+    network_mode: host   # chỉ gọi ra ngoài; trên VPS upload qua bridge Docker chậm ~6 lần (10 MB: 120 s vs 18 s)
+    volumes:
+      - ./data:/app/data
+      - ./media:/app/media
+    restart: unless-stopped
